@@ -1,0 +1,130 @@
+<!DOCTYPE html><html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rapepz Preset</title><style>
+body{
+background:#000;
+color:white;
+font-family:Arial,sans-serif;
+margin:0;
+padding:0;
+text-align:center;
+}
+
+header{
+padding:30px;
+}
+
+.logo{
+width:180px;
+border-radius:20px;
+box-shadow:0 0 20px red;
+}
+
+h1{
+color:red;
+font-size:40px;
+margin-top:15px;
+}
+
+.menu{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:10px;
+margin:20px;
+}
+
+.menu a,.music-btn{
+background:red;
+color:white;
+padding:12px 20px;
+border:none;
+border-radius:10px;
+text-decoration:none;
+font-weight:bold;
+cursor:pointer;
+}
+
+.section{
+padding:30px 15px;
+}
+
+.card{
+background:#111;
+border:2px solid red;
+border-radius:15px;
+padding:20px;
+margin:20px auto;
+max-width:500px;
+}
+
+.card h2{
+color:red;
+}
+
+.download{
+display:inline-block;
+background:red;
+color:white;
+padding:12px 20px;
+border-radius:10px;
+text-decoration:none;
+margin-top:10px;
+}
+
+footer{
+padding:30px;
+color:#aaa;
+}
+</style></head><body><header><img src="Proyek Baru 100 [41F58A4].png" class="logo"><h1>RAPEPZ PRESET</h1><p>Welcome To Rapepz Preset 🔥</p><button class="music-btn" onclick="toggleMusic()">🎵 PLAY MUSIC</button>
+
+<audio id="bgm" loop>
+<source src="music.mp3" type="audio/mpeg">
+</audio><div class="menu">
+<a href="#xml">XML</a>
+<a href="#preset">PRESET</a>
+<a href="https://tiktok.com/@rapepzzzsukasusu" target="_blank">TIKTOK</a>
+</div></header><section id="xml" class="section"><h1>XML</h1><div class="card"><h2>Velocity XML V1</h2><video width="100%" controls>
+<source src="video1.mp4" type="video/mp4">
+</video><p>Creator : Rapepz</p><a class="download"
+href="https://drive.google.com/file/d/12YkfEDs_xRb7HdfW6p1BMgkn5lfaLK90/view?usp=drivesdk"
+target="_blank">
+
+DOWNLOAD XML
+
+</a></div></section><section id="preset" class="section"><h1>PRESET</h1><div class="card"><h2>Velocity Preset V1</h2><video width="100%" controls>
+<source src="video2.mp4" type="video/mp4">
+</video><p>Creator : Rapepz</p><a class="download"
+href="https://alightcreative.com/am/share/u/TNpbdcGrMwcWljwdfRYZhjjKgKl1/p/pzzUo6KKhf-edddc57ed2d6904c"
+target="_blank">
+
+DOWNLOAD PRESET
+
+</a></div></section><footer>© Rapepz Preset
+
+</footer><script>
+
+let music=document.getElementById("bgm");
+
+function toggleMusic(){
+
+if(music.paused){
+
+music.play();
+
+event.target.innerHTML="⏸ PAUSE MUSIC";
+
+}else{
+
+music.pause();
+
+event.target.innerHTML="🎵 PLAY MUSIC";
+
+}
+
+}
+
+</script></body>
+</html>
